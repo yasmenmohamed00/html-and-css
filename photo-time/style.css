@@ -1,0 +1,84 @@
+*{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+header{
+    background-image: url('img/phototime.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 755px;
+    font-size: 1rem;
+    letter-spacing: 3px;  
+}
+.container-fluid{
+    padding-left: 8rem;
+    padding-right: 9rem;
+}
+h1{
+    letter-spacing: 5px;
+} 
+h4{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #16a085; 
+}
+h6{
+    word-spacing: 4px;
+}
+p{
+    line-height: 1.6;
+    letter-spacing: 1px;
+}   
+.btn{
+    padding: 1.3rem 3rem;
+    background-color: #16a085;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+.btn-lg{
+    padding: 0.8rem 1.4rem;
+}
+.input-group-text{
+    background-color: #16a085;
+}
+.form-control{
+    letter-spacing: 2px;
+}
+.input-group{
+    width: 22rem;
+    
+}
+.yourlife .social{
+    margin-top: 10rem;
+}
+.simple{
+    background-color: #f5f6f7;
+}
+.simple .row{
+    padding-top: 5.5rem;
+}
+.design{
+    padding-top: 7.5rem;
+}
+.community{
+    background-image: url('img/phototime55.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 795px;
+}
+
+.download{
+    height: 390px;
+    background-color: #f5f6f7;
+    padding-top: 6rem;
+}
+.copyright{
+    height: 130px;
+    font-size: 14px;
+}
+.copyright p{
+    letter-spacing: 2px;
+}
+.takephoto{
+    padding: 6rem 0;
+    background-color: #f5f6f7;
+}

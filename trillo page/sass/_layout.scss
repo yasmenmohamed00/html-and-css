@@ -1,0 +1,27 @@
+@import "mixin";
+.main{
+    width: 80%; 
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 2px;
+    box-shadow: 0 1rem 2rem rgba(black, .20);
+    @include respond(tab-phone){
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    @include respond(tab-phone){
+        flex-direction: column;
+    }
+}
+.hotal__viwe{
+    flex: 1;
+}
+
+
+
