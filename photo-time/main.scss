@@ -1,0 +1,105 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+$main-color: #16a085;
+$bg-color: #f5f6f7;
+*{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-image: url('img/phototime.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 755px; */
+    height: 100vh;
+    font-size: 1rem;
+    letter-spacing: 3px;  
+}
+h1{
+    letter-spacing: 5px;
+} 
+h4{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: $main-color; 
+}
+h6{
+    word-spacing: 4px;
+}
+p{
+    line-height: 1.6;
+    letter-spacing: 1px;
+}   
+.btn{
+    padding: 1.3rem 3rem;
+    background-color: $main-color;
+    font-size: 12px;
+    letter-spacing: 3px;
+    &-lg{
+        padding: 0.8rem 1.4rem;
+    }
+}
+
+.input-group-text{
+    background-color: $main-color;
+}
+.form-control{
+    letter-spacing: 2px;
+}
+.yourlife .social{
+    margin-top: 10rem;
+}
+.photoApp{
+    background-color: $bg-color;
+}
+.photoApp .row{
+    padding-top: 5.5rem;
+    /* padding-bottom:  5.5rem; */
+}
+.design{
+    padding-top: 7.5rem;
+}
+.community{
+    background-image: url('img/phototime55.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.download{
+    background-color: $bg-color;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.copyright{
+    height: 130px;
+    font-size: 14px;
+}
+.copyright{
+    p{
+        letter-spacing: 2px;
+    }
+}
+.takephoto{
+    padding: 6rem 0;
+    background-color: $bg-color;
+}
+ 
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: .5rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: .8rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1rem;
+    }
+  } 

@@ -1,0 +1,18 @@
+{
+  "name": "photo-time",
+  "version": "1.0.0",
+  "description": "landign page",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass main.scss style.css -w"
+  },
+  "author": "yasmen",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "npm": "^6.9.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
