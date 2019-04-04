@@ -1,0 +1,29 @@
+@import 'sass/mixins.scss';
+.contanier{
+    width: 100vw;
+    max-width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    // padding-left: 5rem;   
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+        flex-basis: 80%;
+        @include respond(tab-land){
+            justify-content: center;
+            flex-basis: 100%;
+        }
+    }
+    aside{
+        flex: 1;
+        height: 100vh;
+        padding: 1.5rem;
+        margin-top: 1rem;
+        @include respond(tab-land){
+            display: none;
+        }
+       
+    }
+}

@@ -1,0 +1,61 @@
+// Color
+$color_white: #fff;
+$color_black: #28394a;
+$color_gray: #899bb4;
+$color_graylight: #E5E5E5;
+$color_babyblue: #F5FCFF;
+
+//some class to add
+.border_bottom{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.border_top{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+
+/*Box Sizing*/
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+/* Reset margins and paddings on most elements */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
+  margin: 0;
+  padding: 0;
+}
+/* Removes discs from ul */
+ul {
+    list-style: none;
+}
+button {
+    color: inherit; 
+    font: inherit; 
+    letter-spacing: inherit; 
+}  
+i{
+    color: $color_gray;
+
+}
