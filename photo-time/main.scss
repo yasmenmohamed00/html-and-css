@@ -86,20 +86,3 @@ p{
     background-color: $bg-color;
 }
  
-  @include media-breakpoint-up(sm) {
-    html {
-      font-size: .5rem;
-    }
-  }
-  
-  @include media-breakpoint-up(md) {
-    html {
-      font-size: .8rem;
-    }
-  }
-  
-  @include media-breakpoint-up(lg) {
-    html {
-      font-size: 1rem;
-    }
-  } 
