@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "book",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "tar": "^4.4.8"
+  },
   "devDependencies": {
     "node-sass": "^4.11.0"
   },
