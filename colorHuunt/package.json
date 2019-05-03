@@ -11,5 +11,7 @@
   "devDependencies": {
     "node-sass": "^4.11.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "tar": "^4.4.8"
+  }
 }
