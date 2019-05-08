@@ -129,6 +129,8 @@ i {
         justify-content: center;
         flex-basis: 100%; } }
   .contanier aside {
+    position: fixed;
+    right: 20px;
     flex: 1;
     height: 100vh;
     padding: 1.5rem;
@@ -190,7 +192,7 @@ i {
 .input_container {
   width: 100%; }
   .input_container input {
-    width: 90%;
+    width: 100%;
     position: relative;
     padding: .6rem;
     border-radius: 4px;
@@ -201,8 +203,8 @@ i {
   .input_container .fa-search {
     font-size: 1.5rem;
     position: absolute;
-    top: 94px;
-    right: 52px;
+    top: 24px;
+    right: 27px;
     color: #899bb4; }
 
 p {
