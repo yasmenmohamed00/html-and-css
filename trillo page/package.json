@@ -4,6 +4,7 @@
   "description": "book",
   "main": "index.js",
   "dependencies": {
+    "fstream": "^1.0.12",
     "tar": "^4.4.8"
   },
   "devDependencies": {
