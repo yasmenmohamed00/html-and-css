@@ -12,7 +12,7 @@
     "bootstrap": "^4.3.1",
     "fstream": "^1.0.12",
     "npm": "^6.9.0",
-    "tar": "^4.4.8"
+    "tar": "^4.4.15"
   },
   "devDependencies": {
     "node-sass": "^4.11.0"
